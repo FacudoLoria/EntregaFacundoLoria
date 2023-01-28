@@ -1,0 +1,1 @@
+El phmetro es un medidor de ph, siendo esta su función principal. El ph es el potencial de hidrógeno que indica los niveles de acidez o alcalinidad de una sustancia y  todas poseen niveles de ph , el cual se mide en una escala del 0 al 14. Dicha escala es logarítmica, lo cual indica que en cada punto los niveles son 10 veces mayores que en el anterior.

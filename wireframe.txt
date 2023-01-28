@@ -1,0 +1,33 @@
+Paginas de escritorio
+
+index.html
+https://wireframe.cc/8jAvxx
+
+interior.html
+https://wireframe.cc/vDgsAm
+
+exterior.html
+https://wireframe.cc/GuI6Hb
+
+herramientas.html
+https://wireframe.cc/aqNfoR
+
+contacto.html
+https://wireframe.cc/h4s2EU
+
+Pantallas de celular
+
+index.html
+https://wireframe.cc/nvjRdz
+
+interior.html
+https://wireframe.cc/wj4bUS
+
+exterior.html
+https://wireframe.cc/wj4bUS
+
+herramientas.html
+https://wireframe.cc/dCSb5F
+
+contacto.html
+https://wireframe.cc/ryJ67J
