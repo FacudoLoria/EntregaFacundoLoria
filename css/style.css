@@ -12,16 +12,19 @@ html{
 nav{
     background-color: white;
     padding: 10px 25px;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
 }
 nav a{
     margin-right: 2rem;
 }
-    nav ul{
+
+nav ul{
         list-style: none;
         display: inline-block;
         margin-right: 5rem;
 }   
-        nav ul li{
+ nav ul li{
             display: inline-block;
             margin-right: 1rem;
 }
@@ -32,7 +35,7 @@ nav ul li a{
     margin-right: 3.5rem;
 }
 main section h1{
-    color: rgb(149, 187, 93);
+    color: rgb(0, 0, 0);
     font-size: 2.5rem;
     text-transform: uppercase;
     font-weight: 450;
@@ -58,6 +61,10 @@ p{
 .text-red{
     color: rgba(255, 0, 0, 0.658);
 }
+.fon2{
+    background-color: rgba(72, 196, 196, 0.829);
+    color: black;
+}
 .text-center{
     text-align: center;
 }
@@ -74,3 +81,44 @@ p{
 .text-right{
     text-align: right;
 }
+
+.tam-img{
+    width: 15rem;
+}
+
+.marginM{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+}
+.mensaje{
+    font-size: 2rem;
+}
+.anime1{
+    margin-top: 2rem;
+    text-align: center;
+
+}
+
+.anime2{
+    text-decoration: none;
+    color: rgb(149, 187, 93);
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    position: relative;
+}
+.anime2:after{
+    content: "";
+    width: 0%;
+    height: 4px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transition: all .5s;
+    will-change: width;
+    }
+.anime2:hover:after{
+        width: 100%;
+        right: 0;}
+
