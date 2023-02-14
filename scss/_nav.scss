@@ -1,0 +1,48 @@
+nav{
+    background-color: white;
+    padding: 10px 25px;
+    font-size: 2rem;
+    font-family: $texto1;
+        a{
+            margin-right: 2rem;
+            ul{
+                list-style: none;
+                display: inline-block;
+                margin-right: 5rem;
+
+                li{
+                    display: inline-block;
+                    margin-right: 1rem;
+
+                    a{
+                        color: $gris;
+                        text-decoration: none;
+                        font-size: 1rem;
+                        margin-right: 3.5rem;
+                    }
+                }
+            }
+        }
+}
+
+.anime2{
+    text-decoration: none;
+    color: $verde;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    position: relative;
+}
+.anime2:after{
+    content: "";
+    width: 0%;
+    height: 4px;
+    background-color: $negro;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transition: all .5s;
+    will-change: width;
+    }
+.anime2:hover:after{
+        width: 100%;
+        right: 0;}
